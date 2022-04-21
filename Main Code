@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Change Text</title>
+
+    <script>
+        function hello()
+        {
+        document.write("<center>Text has been changed </center>");
+        }
+    </script>
+
+</head>
+<center>
+<body>
+<p>Text before  change</p>
+<button onclick="hello()">Click to change </button>
+</body>
+</center>
+</html>
